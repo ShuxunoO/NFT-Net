@@ -10,6 +10,6 @@ Coming soon！
 
 [introduction pdf](assets/NFT-Net_A_Non_Fungible_Token_Cross-Modal_Dataset_for_AI_Research.pdf)
 
-![NFT1000](assets/NFT Search_banner_v3.png)
+![NFT Search](assets/NFT_Search_banner_v3.png)
 
 **You can try our online search demo at : https://www.nftscan.com/ai-search**
