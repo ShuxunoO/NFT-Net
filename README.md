@@ -2,7 +2,7 @@
 Visual-Text dataset based on NFT metadata.
 Coming soon！
 
-![NFT1000](assets\NFT1000.png)
+![NFT1000](assets/NFT1000.png)
 
 [source paper](assets/ACM_MM_NFT1000_Final_Version.pdf)
 
@@ -10,6 +10,6 @@ Coming soon！
 
 [introduction pdf](assets/NFT-Net_A_Non_Fungible_Token_Cross-Modal_Dataset_for_AI_Research.pdf)
 
-![NFT1000](assets\NFT Search_banner_v3.png)
+![NFT1000](assets/NFT Search_banner_v3.png)
 
 **You can try our online search demo at : https://www.nftscan.com/ai-search**
