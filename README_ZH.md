@@ -1,81 +1,63 @@
 
-
 ![NFT1000](assets/NFT_NET.png)
 
 
 
 [![Static Badge](https://img.shields.io/badge/%F0%9F%A4%97%20Huggingface-NFT%20NET-orange?style=flat&logoColor=%23FFD21E)](https://huggingface.co/datasets/shuxunoo/NFT-Net)[![Static Badge](https://img.shields.io/badge/arXiv-2402.16872%20-B31B1B?style=flat&logo=arxiv&link=https%3A%2F%2Farxiv.org%2Fabs%2F2402.16872)](https://arxiv.org/abs/2402.16872)[![Static Badge](https://img.shields.io/badge/%F0%9F%95%B9%EF%B8%8F%20NFTScan-demo-blue?style=flat)](https://www.nftscan.com/ai-search)[![GitHub Stars](https://img.shields.io/github/stars/ShuxunoO/NFT-Net?style=social)](https://github.com/ShuxunoO/NFT-Net)
 
-[中文版](README_ZH.md) | [English Version](README.md)
+[English Version](README.md) | [中文版](README_ZH.md)
 
 <br>
 
 
-# 🗺︎  RoadMap
+# 🗺︎ 路线图
 
-- [2023-03-30] ⛵ Project Creation；
+- [2023-03-30] ⛵ 项目创建；
+- [2023-11] 🪨 完成 [NFT1000](https://huggingface.co/datasets/shuxunoo/NFT-Net/tree/main/NFT1000) 数据集的收集和组织；
+- [2023-12-30] 📄 基于 NFT1000 的论文提交至 ICME 2024；
+- [2024-3-12] 💔 论文被 ICME 拒绝；🩶
+- [2024-04-12] 📄 更好的论文完成并提交至 ACM Multimedia 2024；
+- [2024-07-15] 🥳 论文 [**“NFT1000: A Cross-Modal Dataset For Non-Fungible Token Retrieval”**](https://openreview.net/forum?id=xUtNrKH8iB&noteId=xUtNrKH8iB) 被 MM 接受！🎊
+- [2024-9] 💾 开源整个数据集，进度： ███████████████████████░ [950/1001]
 
-- [2023-11] 🪨 Complete the collection and organization of [NFT1000](https://huggingface.co/datasets/shuxunoo/NFT-Net/tree/main/NFT1000) dataset；
-
-- [2023-12-30] 📄 Paper based on NFT1000 was submitted to ICME 2024；
-
-- [2024-3-12] 💔 Paper was rejected by ICME；🩶
-
-- [2024-04-12] 📄 A better paper was finished and submitted to ACM Multimedia 2024；
-
-- [2024-07-15] 🥳 Paper [**“NFT1000: A Cross-Modal Dataset For Non-Fungible Token Retrieval”**](https://openreview.net/forum?id=xUtNrKH8iB&noteId=xUtNrKH8iB) was accepted by  MM！🎊
-
-- [2024-9] 💾 Open source the whole dataset,progress： ███████████████████████░ [950/1001]
-
-  Please visit the [Hugging Face](https://huggingface.co/datasets/shuxunoo/NFT-Net) for more details~
+  请访问 [Hugging Face](https://huggingface.co/datasets/shuxunoo/NFT-Net) 获取更多详情~
 
 - ……
 
+<br>
 
+# 📸 NFT-Net 概述
+
+[NFT](https://zh.wikipedia.org/wiki/NFT)（非同质化代币）是一种新型数字资产，代表着对独特物品（如艺术品、音乐、视频或虚拟商品）的所有权或真实性证明，并记录在区块链上。与比特币等可互换的加密货币不同，NFT 是独一无二的，无法与等值物品交换。每个 NFT 都有一个唯一标识符，使其对收藏家、创作者和数字市场具有价值。作为 [Web 3.0](https://zh.wikipedia.org/wiki/Web3) 世界中的重要数字资产，NFT 将在未来扮演越来越重要的角色。鉴于学术界目前缺乏专注于 NFT 的数据集，我们创建了 **[NFT-Net](https://huggingface.co/datasets/shuxunoo/NFT-Net)**，旨在激发和促进 NFT 领域的研究和发展！
+
+**[ImageNet](https://www.image-net.org/)** 是计算机视觉领域的里程碑，推动了自动驾驶、物品识别、医学图像分析等跨行业应用的发展。受到其启发，我们旨在为 Web3.0 领域创建一个全面对标ImageNet的数据集：NFT-Net！
+
+NFT-Net 是一个多链、多类别和多模态的数据集，专注于非同质化代币（NFT）。数据集中的每个 NFT 项目作为基本单位，包含元数据、标准化图像数据（img）、caption（从元数据中提取的文本描述，用于图像-文本对齐训练）、prompt（从元数据中提取的文本标签，用于生成模型训练）和dashboard（项目概览）。我们的长期目标是收集跨多个区块链（例如，以太坊、Solana、BTC）和类别（PFP、艺术、摄影、游戏等）的 NFT 项目，从而推动 NFT 相关领域的研究，如检索、生成和量化交易。
+
+目前，我们已经在开发 [NFT1000](https://huggingface.co/datasets/shuxunoo/NFT-Net/tree/main/NFT1000) 数据集方面取得了重大进展！NFT1000 由以太坊区块链上最受欢迎的 1000 个（实际上是 1001 个）PFP NFT 项目组成，包含 756 万对图像-文本对，总数据量为 1.75TB。数据集包括 356 个主题和 60 万个名词短语，适用于 NFT 检索、生成和视觉问答等各种下游任务。此外，基于 NFT1000 数据集的研究已被认可，题为 "NFT1000: A Cross-Modal Dataset For Non-Fungible Token Retrieval" 的论文被多媒体 AI 领域的三大会议之一 [ACM Multimedia 2024](https://2024.acmmm.org/registration) 接收。
 
 <br>
 
-
-
-# 📸 NFT-Net Overview
-
-[NFT](https://zh.wikipedia.org/wiki/NFT) (Non-Fungible Token) is a new type of digital asset that represents ownership or proof of authenticity of unique items, such as artwork, music, videos, or virtual goods, on a blockchain. Unlike cryptocurrencies like Bitcoin, which are fungible and can be exchanged on a one-to-one basis, NFTs are one-of-a-kind and cannot be exchanged for something of equal value. Each NFT has a unique identifier, making it valuable for collectors, creators, and digital markets. As an essential digital asset in the [Web 3.0](https://zh.wikipedia.org/wiki/Web3) world, NFTs are set to play an increasingly important role. Given that the academic community currently lacks a dataset focused on NFTs, we have created **[NFT-Net](https://huggingface.co/datasets/shuxunoo/NFT-Net)**, aiming to inspire and foster research and development in the field of NFTs!
-
-The **[ImageNet](https://www.image-net.org/)** is a milestone in the field of computer vision, driving advancements and cross-industry applications, such as autonomous driving and medical image analysis. Building on this legacy, we aim to create a comprehensive dataset for the Web3.0 domain: NFT-Net, which is designed to be the Web3.0 counterpart of ImageNet！
-
-NFT-Net is a multi-chain, multi-category, and multimodal dataset focused on Non-Fungible Tokens (NFTs). Each NFT project in the dataset serves as a basic unit, encompassing metadata, standardized image data (img), captions (text descriptions extracted from metadata for image-text alignment training), prompts (text labels derived from metadata for generative model training), and a dashboard (an overview of the project). Our long-term goal is to collect NFT projects across multiple blockchains (e.g., Ethereum, Solana, BTC) and categories (PFP, Arts, Photographs, Games, etc.), thus advancing research in NFT-related areas such as retrieval, generation, and quantitative trading.
-
-Now，we have already achieved significant milestones with the development of the [NFT1000](https://huggingface.co/datasets/shuxunoo/NFT-Net/tree/main/NFT1000) dataset! NFT1000 consists of the top 1000 (1001, in fact) most popular PFP NFT projects on the Ethereum blockchain, comprising 7.56 million image-text pairs, totaling 1.75TB of data. The dataset includes 356 themes and 600,000 noun phrases, making it suitable for various downstream tasks such as NFT retrieval, generation, and visual question answering. Additionally, our research based on the NFT1000 dataset has been recognized, with the paper titled "NFT1000: A Cross-Modal Dataset For Non-Fungible Token Retrieval" being accepted by [ACM Multimedia 2024](https://2024.acmmm.org/registration), one of the top three conferences in the field of multimedia AI.
-
-
-
-<br>
-
-
-
-## 🔥 Introduction of NFT1000
+## 🔥 NFT1000 简介
 
 ![NFT1000](assets/NFT1000.gif)
 
 <br>
 
-The [NFT1000](https://huggingface.co/datasets/shuxunoo/NFT-Net/tree/main/NFT1000) dataset comprises 1000 outstanding PFP NFT projects, each containing approximately 7500 image-text pairs, encompassing a total of 7.56 million image-text pairs with a collective data volume of 1.75TB.
+[NFT1000](https://huggingface.co/datasets/shuxunoo/NFT-Net/tree/main/NFT1000) 数据集由 1000 个杰出的 PFP NFT 项目组成，每个项目包含约 7500 对图像-文本对，总共 756 万对图像-文本对，数据总量为 1.75TB。
 
-In the dataset, the training set includes 800 projects with 6,178,249 image-text pairs. The validation set comprises 50 projects with 383,916 image-text pairs, and the test set consists of 150 projects with 1,000,838 imagetext pairs. The content spans a diverse range of artistic types, including 3D rendered images, 2D flat illustrations, pixel arts, NPC characters, real photographs,etc. It covers a total of 356 different content themes and 595,504 unique descriptive phrases.
+在数据集中，训练集包括 800 个项目，包含 6,178,249 对图像-文本对。验证集包括 50 个项目，包含 383,916 对图像-文本对，测试集包括 150 个项目，包含 1,000,838 对图像-文本对。内容涵盖多种艺术类型，包括 3D 渲染图像、2D 平面插图、像素艺术、NPC 角色、真实照片等。总共涵盖 356 个不同的内容主题和 595,504 个独特的描述短语。
 
 <br>
 
 ![NFT1000](assets/NFT1000.png)
 
+### 📃 NFT1000 项目列表
 
-
-### 📃 Project list of NFT1000
-
-The NFT1000 dataset comprises the most renowned 1000 avatar NFT projects from the Ethereum mainnet, based on sales data 2023-6-23.（Interestingly, there are actually 1001 projects included, as my own project, [BanaCat](https://opensea.io/collection/banacat-v2), is among them）. These NFT projects have laid the foundations of the early NFT ecosystem and have heralded the golden era of NFTs!
-
+NFT1000 数据集由以太坊主网上最著名的 1000 个头像 NFT 项目组成，基于 2023-6-23 的销售数据。（有趣的是，实际上包含 1001 个项目，因为我自己的项目 [BanaCat](https://opensea.io/collection/banacat-v2) 也在其中）。这些 NFT 项目奠定了早期 NFT 生态系统的基础，并预示着 NFT 的黄金时代！
 
 <details>
-<summary>Click here to see NFT1000 demo projects</summary>
+<summary>点击这里查看 NFT1000 演示项目</summary>
 
   | index | NFT_name | collected_tokens | index | NFT_name | collected_tokens | index | NFT_name | collected_tokens | index | NFT_name | collected_tokens | index | NFT_name | collected_tokens |
   |-------|----------|------------------|-------|----------|------------------|-------|----------|------------------|-------|----------|------------------|-------|----------|------------------|
@@ -104,71 +86,58 @@ The NFT1000 dataset comprises the most renowned 1000 avatar NFT projects from th
 
 </details>
 
-
-
-Please visit [📃PDF](assets/Details_of_NFT_collections_in_the_NFT1000_dataset.pdf) for the total list！
+请访问 [📃PDF](assets/Details_of_NFT_collections_in_the_NFT1000_dataset.pdf) 查看完整列表！
 
 <br>
 
-### 🛻 Download NFT1000
-You have two methods for downloading the NFT1000:
-#### 1. Download for 🤗Hugging Face 
+### 🛻 下载 NFT1000
+您有两种方法下载 NFT1000：
+#### 1. 从 🤗Hugging Face 下载
 
-Visit the Hugging Face official repository at：[**NFT-NET**](https://huggingface.co/datasets/shuxunoo/NFT-Net/tree/main/NFT1000)，and clone the repository or download each project on click
-
-
+访问 Hugging Face 官方仓库：[**NFT-NET**](https://huggingface.co/datasets/shuxunoo/NFT-Net/tree/main/NFT1000)，并克隆仓库或单击下载每个项目
 
 <br>
 
+#### 2. 使用 NFT-NET-HUB
 
-
-#### 2. Use the NFT-NET-HUB
-
-[**NFT-NET-HUB**](https://github.com/ShuxunoO/NFT-NET-Hub) is a package management tool specifically designed to accompany the NFT-NET dataset. You can use the corresponding script to flexibly download specific projects, such as:
-
-
+[**NFT-NET-HUB**](https://github.com/ShuxunoO/NFT-NET-Hub) 是一个专为 NFT-NET 数据集设计的软件包管理工具。您可以使用相应的脚本灵活下载特定项目，例如：
 
 ```python
-
 from utils.downloader import NFT1000
 
 local_repo_path = "absolute/absolute/path/to/local/repo"
-# modfiy the NFT_name_list to the NFT projects you want to download
+# 修改 NFT_name_list 为您想下载的 NFT 项目
 NFT_name_list = ["BoredApeYachtClub", "CRYPTOPUNKS"]
 
 NFT1000 = NFT1000("NFT1000", local_repo_path)
 NFT1000.download(NFT_name_list)
-
 ```
 
-For a more detailed tutorial, please refer to: [**NFT-NET-HUB**](https://github.com/ShuxunoO/NFT-NET-Hub)
-
-
+有关更详细的教程，请参阅：[**NFT-NET-HUB**](https://github.com/ShuxunoO/NFT-NET-Hub)
 
 <br>
 
+## 📄 NFT1000 论文简介
 
+NFT1000 是一篇专注于 NFT 数据跨模态检索的研究论文。这项工作标志着跨模态检索技术首次应用于 NFT 数据，利用 **Web 2.0** 的智能搜索技术在 **Web 3.0** 的背景下。本文的主要贡献包括：
 
-## 📄 Introduction of NFT1000 paper
+- **数据集构建**：我们构建了计算机视觉领域的第一个 NFT 视觉-文本数据集，名为 **[NFT1000](https://huggingface.co/datasets/shuxunoo/NFT-Net/tree/main/NFT1000)**。
+- **训练方法**：我们提出了一种有效的 NFT 类型数据训练方法，称为动态掩码微调方案，并训练了多个模型作为我们的基线。
+- **相似性量化**：为了量化图像-文本相似性，我们引入了综合方差指数（简称 CVI），它考虑了图像和文本内部的相似性以及图像-文本匹配的程度。
+- **图像生成中的应用**：我们还探索了 NFT 数据在图像生成领域的应用。
 
-NFT1000 is a research paper focused on cross-modal retrieval on NFT data. This work marks the first application of cross-modal retrieval technologies to NFT data, utilizing intelligent search technologies from **Web 2.0** in the context of **Web 3.0**. Our key contributions of this paper include:
-
-- **Dataset Construction**: We constructed the first NFT visual-text dataset in the field of computer vision, named **[NFT1000](https://huggingface.co/datasets/shuxunoo/NFT-Net/tree/main/NFT1000)**.
-- **Training Methodology**: We propose an effective training method for NFT-type data, termed the dynamic masking fine-tuning scheme, and have trained several models to serve as our baseline.
-- **Similarity Quantification**: To quantify image-text similarity, we introduce the Comprehensive Variance Index (CVI, in short), which accounts for similarities within images and texts, as well as the degree of image-text matching.
-- **Application in Image Generation**: We also explore the application of NFT data in the field of image generation.
-
-And this paper was accepted by [**ACM Multimedia 2024**](https://openreview.net/forum?id=xUtNrKH8iB&noteId=xUtNrKH8iB)! Please refer to [📄full paper](https://arxiv.org/abs/2402.16872) for more details!
+这篇论文已被 [**ACM Multimedia 2024**](https://openreview.net/forum?id=xUtNrKH8iB&noteId=xUtNrKH8iB) 接受！有关更多详细信息，请参阅 [📄完整论文](https://arxiv.org/abs/2402.16872)！
 
 <br>
 
-Based on the research in the paper, we jointly developed an NFT search engine with NFTScasn.**You can try our online search demo at : https://www.nftscan.com/ai-search**
+基于论文中的研究，我们与 NFTScasn 共同开发了一个 NFT 搜索引擎。**您可以在此处尝试我们的在线搜索演示：https://www.nftscan.com/ai-search**
 [![NFT Search](assets/NFT_Search_banner_v3.png)](https://www.nftscan.com/ai-search)
 
+<br>
 
-## Contributors
+## 贡献者
 
-Thank you 🙏 to all our contributors!
+感谢 🙏 所有贡献者！
 
 <a href="https://github.com/ShuxunoO/NFT-Net/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=ShuxunoO/NFT-Net" alt="NFT-NET contributors"></a>
@@ -176,8 +145,7 @@ Thank you 🙏 to all our contributors!
 <br>
 <br>
 
-## Parters
-
+## 合作伙伴
 
 [**WTF Academy**](https://www.wtf.academy/) | [**NFTScan**](https://www.nftscan.com/) | [**Alchemy**](https://www.alchemy.com/) | [**NFTGO**](https://nftgo.io/ethereum) | [**Hugging Face**](https://huggingface.co/) | [**OpenSea**](https://opensea.io/) | [**GCC**](https://www.gccofficial.org/) | [**BABEL**](https://metalanguage.notion.site/BABEL-AGI-d9d6572ac4c543679ec87c93a7a20c1f)
 
@@ -188,12 +156,12 @@ Thank you 🙏 to all our contributors!
 
 <br>
 
-## ⚠ Recommendations and Warnings ☢
-All data in the NFT-NET dataset is for scientific research only. Please do not use it for any commercial non-academic purposes such as secondary sales! Downloading data means that you comply with this agreement by default, and any disputes arising from this will be the responsibility of the downloader himself!
+## ⚠ 建议和警告 ☢
+NFT-NET 数据集中所有数据仅供科学研究使用，请勿用于二次销售等任何商业非学术用途！下载数据表示默认遵守此协议，由此引起的纠纷需由下载者本人负责！
 
 <br>
 
-## Authors and Citation
+## 作者和引用
 
 ```
 @inproceedings{
