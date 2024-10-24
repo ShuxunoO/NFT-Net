@@ -4,7 +4,8 @@
 
 
 
-[![Static Badge](https://img.shields.io/badge/%F0%9F%A4%97%20Huggingface-NFT%20NET-orange?style=flat&logoColor=%23FFD21E)](https://huggingface.co/datasets/shuxunoo/NFT-Net)[![Static Badge](https://img.shields.io/badge/arXiv-2402.16872%20-B31B1B?style=flat&logo=arxiv&link=https%3A%2F%2Farxiv.org%2Fabs%2F2402.16872)](https://arxiv.org/abs/2402.16872)[![Static Badge](https://img.shields.io/badge/%F0%9F%95%B9%EF%B8%8F%20NFTScan-demo-blue?style=flat)](https://www.nftscan.com/ai-search)[![GitHub Stars](https://img.shields.io/github/stars/ShuxunoO/NFT-Net?style=social)](https://github.com/ShuxunoO/NFT-Net)
+[![Static Badge](https://img.shields.io/badge/%F0%9F%A4%97%20Huggingface-NFT%20NET-orange?style=flat&logoColor=%23FFD21E)](https://huggingface.co/datasets/shuxunoo/NFT-Net)[![Static Badge](https://img.shields.io/badge/arXiv-2402.16872%20-B31B1B?style=flat&logo=arxiv&link=https%3A%2F%2Farxiv.org%2Fabs%2F2402.16872)](https://arxiv.org/abs/2402.16872)[![Static Badge](https://img.shields.io/badge/%F0%9F%95%B9%EF%B8%8F%20NFTScan-demo-blue?style=flat)](https://www.nftscan.com/ai-search)![Static Badge](https://img.shields.io/badge/github-NFT_NET_HUB-blue?style=flat&logo=github&logoColor=%23181717&link=https%3A%2F%2Fgithub.com%2FShuxunoO%2FNFT-NET-Hub)
+[![GitHub Stars](https://img.shields.io/github/stars/ShuxunoO/NFT-Net?style=social)](https://github.com/ShuxunoO/NFT-Net)
 
 [中文版](README_ZH.md) | [English Version](README.md)
 
@@ -165,6 +166,7 @@ And this paper was accepted by [**ACM Multimedia 2024**](https://openreview.net/
 Based on the research in the paper, we jointly developed an NFT search engine with NFTScasn.**You can try our online search demo at : https://www.nftscan.com/ai-search**
 [![NFT Search](assets/NFT_Search_banner_v3.png)](https://www.nftscan.com/ai-search)
 
+<br>
 
 ## Contributors
 
