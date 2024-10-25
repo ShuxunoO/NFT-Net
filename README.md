@@ -26,7 +26,12 @@
 
 - [2024-07-15] 🥳 Paper [**“NFT1000: A Cross-Modal Dataset For Non-Fungible Token Retrieval”**](https://openreview.net/forum?id=xUtNrKH8iB&noteId=xUtNrKH8iB) was accepted by  MM！🎊
 
-- [2024-9] 💾 Open source the whole dataset,progress： ███████████████████████░ [950/1001]
+- [2024-9] 💾 Open source the whole dataset,progress： ███████████████████████░ [980/1001]
+- [2024-10-25] 🎉 MM2024 Poster was released！
+  <details>
+    <summary>Click here to see ACMMM2024 Poster</summary>
+    <img src="assets/ACMMM2024-Poster.png" alt="NFT1000 Poster">
+  </details>
 
   Please visit the [Hugging Face](https://huggingface.co/datasets/shuxunoo/NFT-Net) for more details~
 
@@ -163,7 +168,7 @@ And this paper was accepted by [**ACM Multimedia 2024**](https://openreview.net/
 
 <br>
 
-Based on the research in the paper, we jointly developed an NFT search engine with NFTScasn.**You can try our online search demo at : https://www.nftscan.com/ai-search**
+Based on the research in the paper, we jointly developed an NFT search engine with NFTScan.**You can try our online search demo at : https://www.nftscan.com/ai-search**
 [![NFT Search](assets/NFT_Search_banner_v3.png)](https://www.nftscan.com/ai-search)
 
 <br>

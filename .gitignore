@@ -161,3 +161,4 @@ cython_debug/
 /temp/*
 *.psd
 /assets/NFT_NET - 副本.png
+/assets*.tex

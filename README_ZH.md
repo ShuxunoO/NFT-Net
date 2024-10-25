@@ -19,7 +19,13 @@
 - [2024-3-12] 💔 论文被 ICME 拒绝；🩶
 - [2024-04-12] 📄 更好的论文完成并提交至 ACM Multimedia 2024；
 - [2024-07-15] 🥳 论文 [**“NFT1000: A Cross-Modal Dataset For Non-Fungible Token Retrieval”**](https://openreview.net/forum?id=xUtNrKH8iB&noteId=xUtNrKH8iB) 被 MM 接受！🎊
-- [2024-9] 💾 开源整个数据集，进度： ███████████████████████░ [950/1001]
+- [2024-9] 💾 开源整个数据集，进度： ███████████████████████░ [980/1001]
+- [2024-10-25] 🎉 MM2024 海报已发布！  
+    <details>
+      <summary>点击这里查看ACMMM2024 Poster</summary>
+      <img src="assets/ACMMM2024-Poster.png" alt="NFT1000 Poster">
+    </details>
+
 
   请访问 [Hugging Face](https://huggingface.co/datasets/shuxunoo/NFT-Net) 获取更多详情~
 
@@ -131,7 +137,7 @@ NFT1000 是一篇专注于 NFT 数据跨模态检索的研究论文。这项工�
 
 <br>
 
-基于论文中的研究，我们与 NFTScasn 共同开发了一个 NFT 搜索引擎。**您可以在此处尝试我们的在线搜索演示：https://www.nftscan.com/ai-search**
+基于论文中的研究，我们与 NFTScan 共同开发了一个 NFT 搜索引擎。**您可以在此处尝试我们的在线搜索演示：https://www.nftscan.com/ai-search**
 [![NFT Search](assets/NFT_Search_banner_v3.png)](https://www.nftscan.com/ai-search)
 
 <br>
