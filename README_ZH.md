@@ -3,7 +3,7 @@
 
 
 
-[![Static Badge](https://img.shields.io/badge/%F0%9F%A4%97%20Huggingface-NFT%20NET-orange?style=flat&logoColor=%23FFD21E)](https://huggingface.co/datasets/shuxunoo/NFT-Net)[![Static Badge](https://img.shields.io/badge/arXiv-2402.16872%20-B31B1B?style=flat&logo=arxiv&link=https%3A%2F%2Farxiv.org%2Fabs%2F2402.16872)](https://arxiv.org/abs/2402.16872)[![Static Badge](https://img.shields.io/badge/%F0%9F%95%B9%EF%B8%8F%20NFTScan-demo-blue?style=flat)](https://www.nftscan.com/ai-search)![Static Badge](https://img.shields.io/badge/github-NFT_NET_HUB-blue?style=flat&logo=github&logoColor=%23181717&link=https%3A%2F%2Fgithub.com%2FShuxunoO%2FNFT-NET-Hub)
+[![Static Badge](https://img.shields.io/badge/%F0%9F%A4%97%20Huggingface-NFT%20NET-orange?style=flat&logoColor=%23FFD21E)](https://huggingface.co/datasets/shuxunoo/NFT-Net)[![Static Badge](https://img.shields.io/badge/arXiv-2402.16872%20-B31B1B?style=flat&logo=arxiv&link=https%3A%2F%2Farxiv.org%2Fabs%2F2402.16872)](https://arxiv.org/abs/2402.16872)[![Static Badge](https://img.shields.io/badge/%F0%9F%95%B9%EF%B8%8F%20NFTScan-demo-blue?style=flat)](https://www.nftscan.com/ai-search)[![Static Badge](https://img.shields.io/badge/Github-NFT_NET_HUB-blue?style=flat&logo=github&logoColor=%23181717&labelColor=%23ffffff&color=%23ffe411&link=https%3A%2F%2Fgithub.com%2FShuxunoO%2FNFT-NET-Hub)](https://github.com/ShuxunoO/NFT-NET-Hub)
 [![GitHub Stars](https://img.shields.io/github/stars/ShuxunoO/NFT-Net?style=social)](https://github.com/ShuxunoO/NFT-Net)
 
 [English Version](README.md) | [中文版](README_ZH.md)
@@ -171,12 +171,20 @@ NFT-NET 数据集中所有数据仅供科学研究使用，请勿用于二次销
 ## 作者和引用
 
 ```
-@inproceedings{
-wang2024nft,
-title={{NFT}1000: A Cross-Modal Dataset For Non-Fungible Token Retrieval},
-author={Shuxun Wang and Yunfei Lei and Ziqi Zhang and Wei Liu and Haowei Liu and Li Yang and Bing Li and Wenjuan Li and Jin Gao and Weiming Hu},
-booktitle={ACM Multimedia 2024},
-year={2024},
-url={https://openreview.net/forum?id=xUtNrKH8iB}
+@inproceedings{10.1145/3664647.3680903,
+author = {Wang, Shuxun and Lei, Yunfei and Zhang, Ziqi and Liu, Wei and Liu, Haowei and Yang, Li and Li, Bing and Li, Wenjuan and Gao, Jin and Hu, Weiming},
+title = {NFT1000: A Cross-Modal Dataset For Non-Fungible Token Retrieval},
+year = {2024},
+isbn = {9798400706868},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3664647.3680903},
+doi = {10.1145/3664647.3680903},
+booktitle = {Proceedings of the 32nd ACM International Conference on Multimedia},
+pages = {2214–2222},
+numpages = {9},
+keywords = {aigc, blockchain, clip, cross-modal retrieval, nft},
+location = {Melbourne VIC, Australia},
+series = {MM '24}
 }
 ```
