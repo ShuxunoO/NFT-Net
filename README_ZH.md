@@ -19,7 +19,7 @@
 - [2024-3-12] 💔 论文被 ICME 拒绝；🩶
 - [2024-04-12] 📄 更好的论文完成并提交至 ACM Multimedia 2024；
 - [2024-07-15] 🥳 论文 [**“NFT1000: A Cross-Modal Dataset For Non-Fungible Token Retrieval”**](https://openreview.net/forum?id=xUtNrKH8iB&noteId=xUtNrKH8iB) 被 MM 接受！🎊
-- [2024-9] 💾 开源整个数据集，进度： ███████████████████████░ [980/1001]
+- [2024-9] 💾 开源整个数据集，进度： ████████████████████████ [1001/1001]
 - [2024-10-25] 🎉 MM2024 海报已发布！  
     <details>
       <summary>点击这里查看ACMMM2024 Poster</summary>
@@ -63,8 +63,10 @@ NFT-Net 是一个多链、多类别和多模态的数据集，专注于非同质
 
 NFT1000 数据集由以太坊主网上最著名的 1000 个头像 NFT 项目组成，基于 2023-6-23 的销售数据。（有趣的是，实际上包含 1001 个项目，因为我自己的项目 [BanaCat](https://opensea.io/collection/banacat-v2) 也在其中）。这些 NFT 项目奠定了早期 NFT 生态系统的基础，并预示着 NFT 的黄金时代！
 
-<details>
-<summary>点击这里查看 NFT1000 演示项目</summary>
+<br>
+
+🍊**NFT1000 项目列表**
+<br>
 
   | index | NFT_name | collected_tokens | index | NFT_name | collected_tokens | index | NFT_name | collected_tokens | index | NFT_name | collected_tokens | index | NFT_name | collected_tokens |
   |-------|----------|------------------|-------|----------|------------------|-------|----------|------------------|-------|----------|------------------|-------|----------|------------------|
@@ -91,13 +93,51 @@ NFT1000 数据集由以太坊主网上最著名的 1000 个头像 NFT 项目组�
   | ...   | ...      | ...              | ...   | ...      | ...              | ...   | ...      | ...              | ...   | ...      | ...              | ...   | ...      | ...              |
   | 1000  | [Women Unite - 10k Assemble](https://opensea.io/collection/women-unite-10k-assemble) | 6991 | 1001  | [BanaCat](https://opensea.io/collection/banacat-v2) | 9710 |       |                  |       |       |                  |       |       |                  |       |
 
-</details>
+<br>
 
 请访问 [📃PDF](assets/Details_of_NFT_collections_in_the_NFT1000_dataset.pdf) 查看完整列表！
 
 <br>
 
-### 🛻 下载 NFT1000
+
+🍉**数据集目录结构**
+```
+NFT1000
+└── BoredApeYachtClub
+    ├── captions/  # Caption of each image
+    │   ├── BoredApeYachtClub_0.txt
+    │   ├── BoredApeYachtClub_1.txt
+    │   ├── ...
+    │   └── BoredApeYachtClub_9999.txt
+    ├── images/  # Image of each NFT
+    │   ├── BoredApeYachtClub_0.png
+    │   ├── BoredApeYachtClub_1.png
+    │   ├── ...
+    │   └── BoredApeYachtClub_9999.png
+    ├── metadata/  # Metadata of each NFT
+    │   ├── BoredApeYachtClub_0.json
+    │   ├── BoredApeYachtClub_1.json
+    │   ├── ...
+    │   └── BoredApeYachtClub_9999.json
+    ├── prompts/  # Prompt of each NFT
+    │   ├── BoredApeYachtClub_0.txt
+    │   ├── BoredApeYachtClub_1.txt
+    │   ├── ...
+    │   └── BoredApeYachtClub_9999.txt
+    └── metadata_dashboard.json  # Metadata dashboard，it contains the overview of each NFT project
+└── CRYPTOPUNKS
+    ├── ... 
+└── MutantApeYachtClub
+    ├── ...
+└── Azuki
+    ├── ...
+    ...
+```
+
+<br>
+
+### 👨🏻‍🚀 下载 NFT1000
+
 您有两种方法下载 NFT1000：
 #### 1. 从 🤗Hugging Face 下载
 

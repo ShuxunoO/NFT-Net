@@ -25,7 +25,7 @@
 
 - [2024-07-15] 🥳 Paper [**“NFT1000: A Cross-Modal Dataset For Non-Fungible Token Retrieval”**](https://openreview.net/forum?id=xUtNrKH8iB&noteId=xUtNrKH8iB) was accepted by  MM！🎊
 
-- [2024-9] 💾 Open source the whole dataset,progress： ███████████████████████░ [980/1001]
+- [2024-9] 💾 Open source the whole dataset,progress： ████████████████████████ [1001/1001]
 - [2024-10-25] 🎉 MM2024 Poster was released！
   <details>
     <summary>Click here to see ACMMM2024 Poster</summary>
@@ -78,9 +78,10 @@ In the dataset, the training set includes 800 projects with 6,178,249 image-text
 
 The NFT1000 dataset comprises the most renowned 1000 avatar NFT projects from the Ethereum mainnet, based on sales data 2023-6-23.（Interestingly, there are actually 1001 projects included, as my own project, [BanaCat](https://opensea.io/collection/banacat-v2), is among them）. These NFT projects have laid the foundations of the early NFT ecosystem and have heralded the golden era of NFTs!
 
+<br>
 
-<details>
-<summary>Click here to see NFT1000 demo projects</summary>
+🍊**List of collections in NFT1000**
+<br>
 
   | index | NFT_name | collected_tokens | index | NFT_name | collected_tokens | index | NFT_name | collected_tokens | index | NFT_name | collected_tokens | index | NFT_name | collected_tokens |
   |-------|----------|------------------|-------|----------|------------------|-------|----------|------------------|-------|----------|------------------|-------|----------|------------------|
@@ -107,15 +108,48 @@ The NFT1000 dataset comprises the most renowned 1000 avatar NFT projects from th
   | ...   | ...      | ...              | ...   | ...      | ...              | ...   | ...      | ...              | ...   | ...      | ...              | ...   | ...      | ...              |
   | 1000  | [Women Unite - 10k Assemble](https://opensea.io/collection/women-unite-10k-assemble) | 6991 | 1001  | [BanaCat](https://opensea.io/collection/banacat-v2) | 9710 |       |                  |       |       |                  |       |       |                  |       |
 
-</details>
-
-
 
 Please visit [📃PDF](assets/Details_of_NFT_collections_in_the_NFT1000_dataset.pdf) for the total list！
 
 <br>
 
-### 🛻 Download NFT1000
+🍉**Introduction to the dataset directory structure**
+```
+NFT1000
+└── BoredApeYachtClub
+    ├── captions/  # Caption of each image
+    │   ├── BoredApeYachtClub_0.txt
+    │   ├── BoredApeYachtClub_1.txt
+    │   ├── ...
+    │   └── BoredApeYachtClub_9999.txt
+    ├── images/  # Image of each NFT
+    │   ├── BoredApeYachtClub_0.png
+    │   ├── BoredApeYachtClub_1.png
+    │   ├── ...
+    │   └── BoredApeYachtClub_9999.png
+    ├── metadata/  # Metadata of each NFT
+    │   ├── BoredApeYachtClub_0.json
+    │   ├── BoredApeYachtClub_1.json
+    │   ├── ...
+    │   └── BoredApeYachtClub_9999.json
+    ├── prompts/  # Prompt of each NFT
+    │   ├── BoredApeYachtClub_0.txt
+    │   ├── BoredApeYachtClub_1.txt
+    │   ├── ...
+    │   └── BoredApeYachtClub_9999.txt
+    └── metadata_dashboard.json  # Metadata dashboard，it contains the overview of each NFT project
+└── CRYPTOPUNKS
+    ├── ... 
+└── MutantApeYachtClub
+    ├── ...
+└── Azuki
+    ├── ...
+    ...
+```
+
+<br>
+
+### 👨🏻‍🚀 Download NFT1000
 You have two methods for downloading the NFT1000:
 #### 1. Download for 🤗Hugging Face 
 
